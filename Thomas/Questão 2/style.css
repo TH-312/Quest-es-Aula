@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif; /* Tipografia legível */
+    background-color: #e0e0e0;
+}
+
+.cartao {
+    max-width: 300px;                     /* Largura máxima definida */
+    margin: 50px auto;                    /* Margem externa e centralização na tela */
+    padding: 20px;                        /* Espaçamento interno */
+    background-color: #ffffff;            /* Fundo diferenciado */
+    border-radius: 10px;                  /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);/* Sombra suave */
+    text-align: center;
+}
