@@ -1,0 +1,22 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 15px;        /* Espaço entre as caixas */
+    flex-wrap: wrap;  /* Faz as caixas quebrarem de linha em telas pequenas */
+}
+
+.caixa {
+    flex: 1;                /* Faz as três caixas terem o mesmo tamanho */
+    min-width: 200px;       /* Largura mínima antes de quebrar para a linha de baixo */
+    background-color: #4a90e2;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+}

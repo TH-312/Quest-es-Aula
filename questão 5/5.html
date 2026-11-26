@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 5</title>
+</head>
+<body>
+
+    <input type="number" id="numero" placeholder="Digite um número">
+    <button id="botao">Verificar</button>
+    <p id="mensagem"></p>
+
+    <script>
+        const numero = document.getElementById("numero");
+        const botao = document.getElementById("botao");
+        const mensagem = document.getElementById("mensagem");
+
+        botao.addEventListener("click", function() {
+            if (numero.value % 2 === 0) {
+                mensagem.textContent = "O número é PAR.";
+            } else {
+                mensagem.textContent = "O número é ÍMPAR.";
+            }
+        });
+    </script>
+
+</body>
+</html>

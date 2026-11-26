@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4</title>
+    <style>
+        .destaque {
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <p id="texto">Clique no botão para mudar este texto.</p>
+    <button id="botao">Clique aqui</button>
+
+    <script>
+        const texto = document.getElementById("texto");
+        const botao = document.getElementById("botao");
+
+        botao.addEventListener("click", function() {
+            texto.textContent = "Texto alterado com sucesso!";
+            texto.classList.add("destaque");
+        });
+    </script>
+
+</body>
+</html>
